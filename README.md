@@ -1,22 +1,28 @@
-# json-formatter
+# JSON Formatter
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> JSON formatter, validator, and beautifier with syntax highlighting
+Format, validate, and beautify JSON with syntax highlighting and clear error messages.
 
 ## Features
-- 🎨 Syntax-highlighted output (keys, strings, numbers, booleans)
-- 🗜️ Minify / prettify with 2 or 4 space indent
-- ✅ Real-time JSON validation with error messages
-- 📋 Copy formatted output to clipboard
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Auto-format and prettify JSON with configurable indent (2/4 spaces or tab)
+- Real-time validation with line-and-column error reporting
+- Syntax highlighting with collapsible nodes
+- Minify mode (compact output)
+- Sort keys alphabetically
+- Copy formatted output to clipboard
+- JSON path inspector — click any node to get its path
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
